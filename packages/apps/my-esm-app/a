@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ../my-app || exit 1
+code ./index.js

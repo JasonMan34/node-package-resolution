@@ -1,5 +1,0 @@
-#!/bin/bash
-
-cd ../my-esm-app || exit 1
-code ./index.js
-code ./package.json

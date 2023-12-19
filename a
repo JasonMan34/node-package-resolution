@@ -1,6 +1,7 @@
 #!/bin/bash
 
-code packages/apps/my-app/index.js
+code packages/apps/my-esm-app/index.js
 code packages/libs/divide-by/index.js
+code packages/libs/divide-by/package.json
 
-cd packages/apps/my-app || exit 1
+cd packages/apps/my-esm-app || exit 1

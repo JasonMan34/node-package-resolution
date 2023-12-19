@@ -1,0 +1,17 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/apps/my-app:
+    dependencies:
+      '@zwi/divide-by':
+        specifier: workspace:*
+        version: link:../../libs/fraction
+
+  packages/libs/fraction: {}

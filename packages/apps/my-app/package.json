@@ -1,10 +1,11 @@
 {
   "name": "@zwi/my-app",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
-  "main": "index.mjs",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./index.mjs"
+    "start": "node ./index.js"
   },
   "dependencies": {},
   "keywords": [],

@@ -1,11 +1,3 @@
-const { divideBy } = require('@zwi/divide-by');
+import { divideBy } from './divide-by';
 
-const cyan = '\x1b[36m';
-const red = '\x1b[31m';
-
-try {
-  console.log('I am going to destroy the world!!');
-  console.log(`\x1b[36m1/0 = ${divideBy(1, 0)}\x1b[0m`);
-} catch (e) {
-  console.error('\x1b[31mI have failed to destroy the world :(\x1b[0m');
-}
+console.log(`2 / 5 = ${divideBy(2, 5)}`);

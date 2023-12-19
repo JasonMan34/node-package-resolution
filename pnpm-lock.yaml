@@ -8,10 +8,6 @@ importers:
 
   .: {}
 
-  packages/apps/my-app:
-    dependencies:
-      '@zwi/divide-by':
-        specifier: workspace:*
-        version: link:../../libs/divide-by
+  packages/apps/my-app: {}
 
   packages/libs/divide-by: {}

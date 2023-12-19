@@ -1,1 +1,1 @@
-This branch showcases that `"type": "module"` packages in node can import CJS packages
+This branch showcases that ESM packages can import CJS packages

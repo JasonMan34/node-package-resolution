@@ -1,10 +1,3 @@
 #!/bin/bash
 
-gco cjs-cant-import-esm/1
-cd ../../../
-
-code packages/apps/my-app/main.js
-code packages/apps/my-app/index.js
-code packages/libs/divide-by/index.js
-
-cd packages/apps/my-app || exit 1
+gco ep

@@ -1,5 +1,5 @@
-const { divideBy } = require('@zwi/divide-by');
+const os = require('os');
+const { main } = require('./main');
 
-const theSecretToLife = divideBy(1, 0);
-
-console.log(`I have uncovered the secrets of the universe! 1/0 = ${theSecretToLife}`);
+console.log(`I am running on ${os.machine()}`);
+main();

@@ -1,5 +1,3 @@
-const { divideBy: privateDivideBy } = require('./divide-by');
-
 /**
  * Returns the result of dividing two numbers.
  *
@@ -8,12 +6,12 @@ const { divideBy: privateDivideBy } = require('./divide-by');
  * @returns {number} The result of a divided by b.
  * @throws {Error} Throws an error if the denominator (b) is zero.
  */
-function divideBy(a, b) {
+const divideBy = (a, b) => {
   if (b === 0) {
     throw new Error('Denominator cannot be zero.');
   }
 
-  return privateDivideBy(a, b);
-}
+  return a / b;
+};
 
 exports.divideBy = divideBy;

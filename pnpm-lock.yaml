@@ -14,4 +14,10 @@ importers:
         specifier: workspace:*
         version: link:../../libs/divide-by
 
+  packages/apps/my-esm-app:
+    dependencies:
+      '@zwi/divide-by':
+        specifier: workspace:*
+        version: link:../../libs/divide-by
+
   packages/libs/divide-by: {}

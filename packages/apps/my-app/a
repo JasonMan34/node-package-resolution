@@ -3,7 +3,6 @@
 gco cjs-cant-import-esm/5
 
 code ../my-esm-app/main.js
-cd ../../libs/divide-by || exit 1
-code ./package.json
-code ./index.mjs
-code ./index.cjs
+code ../../libs/divide-by/package.json
+code ../../libs/divide-by/index.mjs
+code ../../libs/divide-by/index.cjs

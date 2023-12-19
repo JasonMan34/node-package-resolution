@@ -1,1 +1,1 @@
-This branch showcases that `"type": "module"` packages in node can import CJS packages
+In this branch we will create a CJS and MJS entrypoint (Can look at commanderjs in github for real world example)

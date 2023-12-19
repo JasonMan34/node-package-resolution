@@ -1,3 +1,7 @@
 #!/bin/bash
 
+code ./index.js
+code ../libs/divide-by/index.js
+code ../libs/divide-by/package.json
+
 gco cjs-cant-import-esm/2

@@ -5,8 +5,6 @@
  * @param {number} b - The denominator (should not be zero).
  * @returns {number} The result of a divided by b.
  */
-function divideBy(a, b) {
-  return a / b;
-}
+exports.divideBy = (a, b) => a / b;
 
-exports.divideBy = divideBy;
+// export const divideBy = (a: number, b: number) => a / b;

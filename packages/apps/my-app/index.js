@@ -1,5 +1,11 @@
 const { divideBy } = require('@zwi/divide-by');
 
-const theSecretToLife = divideBy(1, 0);
+const cyan = '\x1b[36m';
+const red = '\x1b[31m';
 
-console.log(`I have uncovered the secrets of the universe! 1/0 = ${theSecretToLife}`);
+try {
+  console.log('I am going to destroy the world!!');
+  console.log(`\x1b[36m1/0 = ${divideBy(1, 0)}\x1b[0m`);
+} catch (e) {
+  console.error('\x1b[31mI have failed to destroy the world :(\x1b[0m');
+}

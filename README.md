@@ -1,1 +1,1 @@
-This branch showcases that `"type": "module"` packages in node can import CJS packages
+This branch tries to use a dynamic import to solve the CJS<-ESM problem

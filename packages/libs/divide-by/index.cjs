@@ -1,3 +1,7 @@
+const process = require('node:process');
+
+console.log(`[${process.cwd().split('/').slice(-1)}] - This log is from the .cjs file\n`);
+
 /**
  * Returns the result of dividing two numbers.
  *

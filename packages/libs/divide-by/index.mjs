@@ -1,3 +1,7 @@
+import process from 'node:process';
+
+console.log(`[${process.cwd().split('/').slice(-1)}] - This log is from the .mjs file\n`);
+
 /**
  * Returns the result of dividing two numbers.
  *

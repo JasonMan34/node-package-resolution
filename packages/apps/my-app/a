@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd ../my-esm-app || exit 1

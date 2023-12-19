@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ../../../libs/divide-by || exit 1
+cd ../../libs/divide-by || exit 1
 code ./index.js
 code ./package.json
 

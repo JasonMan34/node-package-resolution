@@ -1,6 +1,9 @@
 const process = require('node:process');
 
-console.log(`[${process.cwd().split('/').slice(-1)}] - This log is from the .cjs file\n`);
+const appName = process.cwd().split('/').slice(-1);
+const file = __filename;
+
+console.log(`[${appName}] - The @zwi/divide-by import resolved to ${file}\n`);
 
 /**
  * Returns the result of dividing two numbers.

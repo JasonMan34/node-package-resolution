@@ -1,6 +1,9 @@
 import process from 'node:process';
 
-console.log(`[${process.cwd().split('/').slice(-1)}] - This log is from the .mjs file\n`);
+const appName = process.cwd().split('/').slice(-1);
+const file = import.meta.url.split('/').slice(-1); // In Node 22: = import.meta.filename
+
+console.log(`[${appName}] - The @zwi/divide-by import resolved to ${file}\n`);
 
 /**
  * Returns the result of dividing two numbers.

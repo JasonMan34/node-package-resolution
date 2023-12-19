@@ -6,12 +6,10 @@
  * @returns {number} The result of a divided by b.
  * @throws {Error} Throws an error if the denominator (b) is zero.
  */
-const divideBy = (a, b) => {
+export const divideBy = (a, b) => {
   if (b === 0) {
     throw new Error('Denominator cannot be zero.');
   }
 
   return a / b;
 };
-
-exports.divideBy = divideBy;

@@ -1,3 +1,6 @@
 #!/bin/bash
 
 gco esm/3
+code index.js
+code divide-by.js
+code package.json

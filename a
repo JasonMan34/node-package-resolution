@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd packages/apps/my-app || exit 1
+code index.js
+code divide-by.js

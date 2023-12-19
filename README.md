@@ -1,1 +1,1 @@
-What happens if we try to use import/export syntax when running a NodeJS program?
+Using import/export with type: module (Take note the import syntax!!)

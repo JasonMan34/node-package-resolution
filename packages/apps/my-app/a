@@ -1,3 +1,9 @@
 #!/bin/bash
 
 gco ep
+
+cd ../.. || exit 1
+code apps/my-app/index.js
+code libs/divide-by/index.js
+code libs/divide-by/divide-by.js
+cd apps/my-app || exit 1

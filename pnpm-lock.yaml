@@ -9,5 +9,3 @@ importers:
   .: {}
 
   packages/apps/my-app: {}
-
-  packages/libs/divide-by: {}

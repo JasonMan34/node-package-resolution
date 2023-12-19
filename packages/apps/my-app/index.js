@@ -1,4 +1,4 @@
-const os = require('os');
+const os = require('node:os');
 const { main } = require('./main');
 
 console.log(`[index.js] (1) I am running on ${os.machine()}`);

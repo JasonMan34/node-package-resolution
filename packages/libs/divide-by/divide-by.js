@@ -3,7 +3,7 @@
  *
  * @param {number} a - The numerator.
  * @param {number} b - The denominator (should not be zero).
- * @returns {number} - The result of a divided by b.
+ * @returns {number} The result of a divided by b.
  */
 function divideBy(a, b) {
   return a / b;

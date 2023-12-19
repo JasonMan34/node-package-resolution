@@ -12,6 +12,6 @@ importers:
     dependencies:
       '@zwi/divide-by':
         specifier: workspace:*
-        version: link:../../libs/fraction
+        version: link:../../libs/divide-by
 
-  packages/libs/fraction: {}
+  packages/libs/divide-by: {}

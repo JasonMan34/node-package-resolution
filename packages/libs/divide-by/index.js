@@ -5,7 +5,8 @@ const { divideBy: privateDivideBy } = require('./divide-by');
  *
  * @param {number} a - The numerator.
  * @param {number} b - The denominator (should not be zero).
- * @returns {number} - The result of a divided by b.
+ * @returns {number} The result of a divided by b.
+ * @throws {Error} Throws an error if the denominator (b) is zero.
  */
 function divideBy(a, b) {
   if (b === 0) {
